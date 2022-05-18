@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddharth's Component Library</title>
+    <link href="/styles.css" rel="stylesheet"/>
+</head>
+    
+<body>
+    <h1 id="Main-Header"> Siddharth's Component Library</h1>
+    <p>This is me getting started with html in order to make a protofolio page for myself where I display my projects
+        and blogs :)</p>
+    <hr>
+
+    <h2 class="Topics">@Typography</h2>
+    <h1>This is Heading-1(Biggest)</h1>
+    <h2>This is Heading-2(Second Biggest)</h2>
+    <p>This is plain text and this wraps around the end</p>
+    <small>This is plain text but smaller</small>
+    <hr>
+
+    <h2 class="Topics">@Containers</h2>
+    <h3>Fluid Container</h2>
+        <p class="Container">This is a fluid container where whatever we enter goes till the full width of the page</p>
+        <h3>Centred Container</h3>
+        <p class="Container Container-Centered">This is a centered container where the text/images/anything we put will be centered in the page for a given
+            width</p>
+        <hr>
+
+        <h2 class="Topics">@Links</h2>
+        <a class="Link Link-Primary" href="/">Primary Link</a>
+        <a class="Link Link-Secondary" href="/">Secondary Link</a>
+        <hr>
+
+        <h2 class="Topics">@Lists</h2>
+        <h3>Unordered List</h3>
+        <ul class="Lists-NonBulleted">
+            <li>Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
+        </ul>
+        <h3>Inline Lists</h3>
+        <!--We will use CSS to make them appear on the same line-->
+        <ul class="Lists-NonBulleted">
+            <li class="List-Item-Inline">Item One</li>
+            <li class="List-Item-Inline">Item Two</li>
+            <li class="List-Item-Inline">Item Three</li>
+        </ul>
+        <h3>Reverse Ordered List</h3>
+        <ol reversed>
+            <li>Good</li>
+            <li>Better</li>
+            <li>Best</li>
+        </ol>
+        <hr>
+
+        <h2 class="Topics">@Nav</h2>
+        <nav class="Navigation">
+            <div class="Nav-Brand">Brand Name</div>
+            <ul class="Lists-NonBulleted">
+                <li class="List-Item-Inline">
+                    <a class="Link Link-Active" href="/">Home</a>
+                </li>
+                <li class="List-Item-Inline">
+                    <a class="Link" href="/">Products</a>
+                </li>
+                <li class="List-Item-Inline">
+                    <a class="Link" href="/">About</a>
+                </li>
+
+            </ul>
+        </nav>
+        <hr>
+
+        <h2 class="Topics">@Header</h2>
+        <header class="Hero">
+            <img class="Hero-Image"  src="/Images/hero.svg" />
+            <h1 class="Hero-Header">Sid Reddy-<span style="color: var(--primary-color);">Web Developer</span>  :)</h1>
+        </header>
+        <hr>
+
+        <h2 class="Topics">@Sections</h2>
+        <div class="Container Container-Centered"> 
+            <section class="Section">
+                <h1>White Section</h2>
+                <p>Men go abroad to wonder at the heights of mountains, at the huge waves of the sea, at the long courses of the rivers, at the vast compass of the ocean, at the circular motions of the stars, and they pass by themselves without wondering.</p>
+            </section>
+        </div>
+        
+        <div class="Container Container-Centered"> 
+        <section class="Section Off-White">
+            <h1>Off White Section</h2>
+            <p>Men go abroad to wonder at the heights of mountains, at the huge waves of the sea, at the long courses of the rivers, at the vast compass of the ocean, at the circular motions of the stars, and they pass by themselves without wondering.</p>
+        </section>
+        </div>
+        <hr>
+
+        <h2 class="Topics">@Footer</h2>
+        <footer class="Footer">
+            <div class="Footer-Heading">Some small heading inside footer</div>
+            <!--We cannot put headings(h1,h2) inside footer-->
+            <ul class="Lists-NonBulleted">
+                <li class="List-Item-Inline">
+                    <a class="Link" href="https://twitter.com/Sid_Reddz">Twitter</a>
+                </li>
+                <li class="List-Item-Inline">
+                    <a class="Link" href="https://github.com/siddharth-reddy-1607">Github</a>
+                </li>
+                <li class="List-Item-Inline">
+                    <a class="Link" href="https://www.linkedin.com/in/siddharth-reddy-94b83a23a/">LinkedIn</a>
+                </li>
+            </ul>
+        </footer>
+
+
+</body>
+
+</html>

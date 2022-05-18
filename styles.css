@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;1,700&display=swap');
+
+:root
+{
+    --primary-color: #478EC8;
+    --offwhite-color:#B7CADB;
+}
+body
+{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0px;
+}
+hr
+{
+    margin: 2rem 0rem;
+}
+.Topics
+{
+    text-decoration: underline;
+}
+
+/* Containers */
+.Container
+{
+    padding: 0.5rem 1rem;/*padding:T,R,B,L=padding:T,R*/
+}
+
+.Container-Centered
+{
+    max-width:500px;
+    margin:auto /*To ensure text is centererd*/
+}
+
+/* Links */
+
+.Link
+{
+    text-decoration:none;
+    padding: 0.5rem 1rem;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+}
+
+.Link-Primary
+{
+background-color: var(--primary-color);
+border-radius: 0.25rem; /*Increasing this will make the border more circular/oval*/
+color: aliceblue;
+}
+
+.Link-Secondary
+{
+    color: var(--primary-color);
+    border-radius: 0.25rem;
+    border:1px solid var(--primary-color);
+}
+
+/* Lists */
+
+.Lists-NonBulleted
+{
+    list-style:none;
+}
+
+.List-Item-Inline
+{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* Navigation */
+
+.Navigation
+{
+    background-color: var(--primary-color);
+    color: aliceblue;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.Navigation .Nav-Brand
+{
+    font-weight: bold;
+}
+
+.Navigation .Link
+{
+    color: aliceblue;
+}
+
+.Navigation .Lists-NonBulleted
+{
+    text-align: right;
+}
+
+.Navigation .Link-Active
+{
+    font-weight: bold; /*Will be on Home by default,so put that as active link and set that to bold  */
+}
+
+/* Header */
+
+.Hero
+{
+    padding:2rem; 
+}
+
+.Hero .Hero-Image
+{
+    max-width:350px ;
+    display: block;
+    margin: auto;
+}
+
+.Hero .Hero-Header
+{
+    font-size: 2rem;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+.Section
+{
+    padding: 2rem;
+}
+
+.Section h1
+{
+    text-align: center;
+}
+
+.Off-White
+{
+    background-color: var(--offwhite-color);
+}
+
+/*Footer*/
+
+.Footer
+{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding:0rem 1rem;
+    color: aliceblue;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.Footer .Footer-Heading
+{
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline;
+}
+
+.Footer .Link
+{
+    color:aliceblue;
+    
+}
+
+.Footer ul
+{
+    padding-inline-start: 0px;
+}
+
+
+
+
