@@ -44,14 +44,15 @@ hr
 .Link-Primary
 {
 background-color: var(--primary-color);
-border-radius: 0.25rem; /*Increasing this will make the border more circular/oval*/
+border-radius: 2rem; /*Increasing this will make the border more circular/oval*/
 color: aliceblue;
+border-radius: 2rem;
 }
 
 .Link-Secondary
 {
     color: var(--primary-color);
-    border-radius: 0.25rem;
+    border-radius: 2rem;
     border:1px solid var(--primary-color);
 }
 
@@ -122,6 +123,8 @@ color: aliceblue;
 .Section
 {
     padding: 2rem;
+    text-align: center;
+    border-radius: 2rem;
 }
 
 .Section h1
