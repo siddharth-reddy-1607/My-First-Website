@@ -2,6 +2,7 @@
 
 :root
 {
+    --nav_footer-color: #251D3A;
     --primary-color: #478EC8;
     --offwhite-color:#B7CADB;
 }
@@ -9,6 +10,8 @@ body
 {
     font-family: 'Noto Sans', sans-serif;
     margin: 0px;
+    background-image:url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
+    background-size: cover;
 }
 hr
 {
@@ -54,6 +57,7 @@ border-radius: 2rem;
     color: var(--primary-color);
     border-radius: 2rem;
     border:1px solid var(--primary-color);
+    background-color: var(--offwhite-color);
 }
 
 /* Lists */
@@ -73,7 +77,7 @@ border-radius: 2rem;
 
 .Navigation
 {
-    background-color: var(--primary-color);
+    background-color: var(--nav_footer-color); 
     color: aliceblue;
     padding:1rem 0rem 3rem 0.25rem;
     border-bottom-left-radius: 1rem;
@@ -100,7 +104,7 @@ border-radius: 2rem;
 
 .Navigation .Link:hover
 {
-    background-color:var(--offwhite-color);
+    background-color:var(--primary-color);
     border-radius: 2rem;
     padding: 0.25rem;;
 }
@@ -112,7 +116,7 @@ border-radius: 2rem;
 
 .Navigation .Link-Active
 {
-    background-color:var(--offwhite-color);
+    background-color:var(--primary-color);
     border: 1px solid gray;
     border-radius: 1rem;
     padding: 0.25rem;
@@ -161,7 +165,8 @@ border-radius: 2rem;
 
 .Footer
 {
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
+    background-color: var(--nav_footer-color);
     text-align: center;
     padding:0.5rem 1rem;
     color: aliceblue;
