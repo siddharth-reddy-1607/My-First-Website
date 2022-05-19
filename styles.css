@@ -36,7 +36,7 @@ hr
 .Link
 {
     text-decoration:none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     /* margin-top: 1rem;
     margin-bottom: 1rem; */
 }
@@ -75,18 +75,34 @@ border-radius: 2rem;
 {
     background-color: var(--primary-color);
     color: aliceblue;
-    padding: 1rem;
+    padding:1rem 0rem 3rem 0.25rem;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
 .Navigation .Nav-Brand
 {
+    font-size: 2rem;
+    /* padding-left: 4rem; */
+    position: relative;top:0.85rem;left: 3rem;
+    font-family:'poppins';
     font-weight: bold;
+    font-size:40px;
+}
+.Navigation ul
+{
+    float:right;
 }
 
 .Navigation .Link
 {
     color: aliceblue;
+}
+
+.Navigation .Link:hover
+{
+    background-color:var(--offwhite-color);
+    border-radius: 2rem;
+    padding: 0.25rem;;
 }
 
 .Navigation .Lists-NonBulleted
@@ -96,7 +112,11 @@ border-radius: 2rem;
 
 .Navigation .Link-Active
 {
-    font-weight: bold; /*Will be on Home by default,so put that as active link and set that to bold  */
+    background-color:var(--offwhite-color);
+    border: 1px solid gray;
+    border-radius: 1rem;
+    padding: 0.25rem;
+/* font-weight: bold; Will be on Home by default,so put that as active link and set that to bold  */
 }
 
 /* Header */
@@ -143,7 +163,7 @@ border-radius: 2rem;
 {
     background-color: var(--primary-color);
     text-align: center;
-    padding:0rem 1rem;
+    padding:0.5rem 1rem;
     color: aliceblue;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -158,12 +178,26 @@ border-radius: 2rem;
 .Footer .Link
 {
     color:aliceblue;
+    padding-right: 1rem;
     
 }
 
 .Footer ul
 {
     padding-inline-start: 0px;
+}
+
+.Footer .Logos
+{
+    padding: 0.25rem 0.25rem;
+    max-width: 20px;
+    max-height: 20px;
+    position:  relative;top:9px;
+}
+
+main
+{
+    min-height:calc(100vh - 293.28px);
 }
 
 
