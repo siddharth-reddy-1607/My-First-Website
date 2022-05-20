@@ -7,7 +7,7 @@
     --offwhite-color:#B7CADB;
 }
 @media only screen and (max-width:450px){
-    .Container-Centered, .Footer{
+     .Footer{
         width: 100%;
     }
 }
