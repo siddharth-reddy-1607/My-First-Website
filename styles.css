@@ -6,6 +6,11 @@
     --primary-color: #478EC8;
     --offwhite-color:#B7CADB;
 }
+@media only screen and (max-width:450px){
+    .Container-Centered, .Footer{
+        width: 100%;
+    }
+}
 html 
 {
     scroll-behavior: smooth;
