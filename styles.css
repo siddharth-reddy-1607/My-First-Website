@@ -91,7 +91,7 @@ border-radius: 2rem;
     color: aliceblue;
     padding:1rem 0rem 3rem 0.25rem;
     border-bottom-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 .Navigation .Nav-Brand
 {
@@ -180,7 +180,7 @@ border-radius: 2rem;
     text-align: center;
     padding:0.5rem 1rem;
     color: aliceblue;
-    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
 .Footer .Footer-Heading
