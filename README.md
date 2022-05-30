@@ -1,5 +1,2 @@
-Hi!! This is Siddharth
-
-This is my first repo on git :)
-
-I'm trying to create my own website where also plan on putting up a blog about my college life so far! Do give it  read when it is done[In about two days from the day I pushed this btw🙃🙃]
+# Portfolio to showcase my projects and blogs
+This is my first website which is a place where I display the projects and blogs I have worked on during my 3-Weeks of learning at NeoG Camp
